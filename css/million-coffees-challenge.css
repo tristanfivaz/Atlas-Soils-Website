@@ -112,44 +112,86 @@ body {
         position: absolute;
         top: 50%;
         transform: translateY(-40%);
-        left: 6%;
-        width: 60%;
+        left: 14%;
+        width: 30%;
     }
     .main-hook-text {
-        font-family: "Montserrat", sans-serif;
+        font-family: "Outfit", sans-serif;
         font-optical-sizing: auto;
-        font-weight: 325;
+        font-weight: 550;
         font-style: normal;
-        font-size: 7.76vw;
-        line-height: 7.8vw;
+        font-size: 3vw;
         color: #fff;
+        margin-bottom: 2vw;
     }
-    .underline-overview {
-        position: relative;
-        top: -5vw;
-        left: 15px;
-        letter-spacing:-1px;
-        display: inline-block;
+    .mini-hook-text {
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.3vw;
+        color: #fff;
+        margin-bottom: 2vw;
+    }
+    .main-hook-flex-buttons {
+        display: flex;
+        gap: 1vw;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-hook-cta-button-1 {
+        text-decoration: none;
+        text-align: center;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.1vw;
+        color: #fff;
+        padding: 0.4vw 1vw 0.4vw 1vw;
+        background-color: #41ba7a;
+        border: solid 2px #41ba7a;
+        border-radius: 50px;
+        width: 50%;
+        transition: color 0.3s ease, background-color 0.3s ease, border 0.3s ease, width 0.3s ease; /* Combined transitions */
+    }
+    .main-hook-cta-button-1:hover {
+        color: #fff;
+        background-color: #39ad70;
+        border: solid 2px #39ad70;
+        width: 80%;
+    }
+    .main-hook-cta-button-2 {
+        text-decoration: none;
+        text-align: center;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.1vw;
+        color: #40db89;
+        padding: 0.4vw 1vw 0.4vw 1vw;
+        background-color: rgba(0, 0, 0, 0);
+        border: solid 2px #40db89;
+        border-radius: 50px;
+        width: 50%;
+        transition: color 0.3s ease, background-color 0.3s ease, border 0.3s ease, width 0.3s ease; /* Combined transitions */
+    }
+    .main-hook-cta-button-2:hover {
+        color: #45f799;
+        background-color: rgba(0, 0, 0, 0);
+        border: solid 2px #45f799;
+        width: 80%;
     }
     .overview-info-container {
         position: absolute;
         top: 50%;
-        transform: translateY(-50%);
-        right: 6%;
-        width: 23%;
-        background: rgba(255, 255, 255, 0.2);
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(10px);
-        -webkit-backdrop-filter: blur(10px);
-        border: 1px solid rgba(255, 255, 255, 0.3);
-        border-radius: 16px;
+        transform: translateY(-43%);
+        right: 14%;
         overflow: hidden;
     }
-    .overview-info-img {
-        width: 100%;
-        border-radius: 16px 16px 0 0;
-        -webkit-mask-image: linear-gradient(black 80%, transparent 100%);
-        mask-image: linear-gradient(black 80%, transparent 100%);
+    .overview-annotation {
+        height: 55vh;
     }
     .overview-info-title {
         font-family: "Outfit", sans-serif;
