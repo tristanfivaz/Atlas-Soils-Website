@@ -232,7 +232,7 @@ body {
         align-items: center;
         justify-content: center;
         gap: 6vh;
-        margin: 6vh 0 6vh 0;
+        margin: 15vh 0;
     }
     .section-2-catch-title-container {
         width: 50%;
@@ -242,7 +242,6 @@ body {
     }
     .section-2-catch-container-spaced {
         width: 65%;
-        margin-bottom: 18vh
     }
     .section-2-catch-title {
         font-family: "Outfit", sans-serif;
@@ -290,6 +289,73 @@ body {
         height: 100%;
         border: 0;
         border-radius: 2vw;
+    }
+    .horizontal-fade-line {
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 0) 80%);
+        margin: 15vh 0;
+    }
+    .section-2-flex-across-demo {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+    }
+    .section-2-demo-mini-box {
+        width: 28%;
+        border-radius: 1vw;
+        border: solid 1px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        background-color: #fff;
+        margin: 1vw;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+    .section-2-demo-mini-box:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    .section-2-demo-mini-box-title-container {
+        width: 100%;
+        background-color: #41BA7A;
+        padding: 1vw 0;
+        border-top-left-radius: 1vw;
+        border-top-right-radius: 1vw;
+    }
+    .section-2-demo-mini-box-title {
+        font-family: "Outfit", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.2vw;
+        color: #fff;
+        text-align: center;
+        margin: 0;
+    }
+    .section-2-demo-mini-box-text-container {
+        width: 100%;
+        height: 100%;
+        padding: 1.5vw;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-2-demo-mini-box-text {
+        font-family: "Outfit", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1vw;
+        color: #333;
+        text-align: center;
+        line-height: 1.5;
+        margin: 0;
+    }
+    .mini-highlight-demo {
+        font-weight: 650;
     }
     .footer {
         position: relative;
