@@ -371,6 +371,7 @@ body {
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         margin: 2vw 0;
         padding: 2vw;
+        box-sizing: border-box;
     }
     .section-2-tabs-header {
         display: flex;
@@ -1050,6 +1051,7 @@ body {
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         margin: 2vw 0;
         padding: 2vw;
+        box-sizing: border-box;
     }
     .section-2-tabs-header {
         display: flex;
