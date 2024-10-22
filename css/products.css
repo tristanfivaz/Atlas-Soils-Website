@@ -252,6 +252,9 @@ body {
     .section-2-products-container-spaced {
         width: 70%;
     }
+    .section-2-comparison-container-spaced {
+        width: 70%;
+    }
     .section-2-catch-button-container {
         width: 50%;
         display: flex;
