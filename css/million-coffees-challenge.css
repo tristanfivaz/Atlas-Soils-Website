@@ -737,16 +737,17 @@ body {
     }
     .connect-link {
         text-decoration: none;
-        margin-bottom: 6%;
-        padding: 0.6vw 2vw 0.6vw 2vw;
+        margin-bottom: 13%;
+        padding: 0.9vw 4vw 0.9vw 4vw;
         font-size: 3.4vw;
         font-family: "Inter", sans-serif;
         font-optical-sizing: auto;
         font-weight: 500;
         font-style: normal;
-        color: #fff;
-        border: solid 3px #fff;
-        border-radius: 7px;
+        color: #111;
+        background-color: #fff;
+        border-radius: 80px;
+        box-shadow: 0 0 8vw rgba(255, 255, 255, 0.3);
     }
     .mobile-nav-contents {
         display: flex;
@@ -1463,16 +1464,17 @@ body {
     }
     .connect-link {
         text-decoration: none;
-        margin-bottom: 6%;
-        padding: 0.6vw 2vw 0.6vw 2vw;
-        font-size: 4.4vw;
+        margin-bottom: 30%;
+        padding: 1vw 4vw 1vw 4vw;
+        font-size: 4.8vw;
         font-family: "Inter", sans-serif;
         font-optical-sizing: auto;
-        font-weight: 550;
+        font-weight: 600;
         font-style: normal;
-        color: #fff;
-        border: solid 2.5px #fff;
-        border-radius: 7px;
+        color: #111;
+        background-color: #fff;
+        border-radius: 80px;
+        box-shadow: 0 0 8vw rgba(255, 255, 255, 0.3);
     }
     .mobile-nav-contents {
         display: flex;
