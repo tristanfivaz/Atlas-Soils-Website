@@ -841,6 +841,21 @@ body {
         justify-content: center;
         align-items: center;
     }
+    .cta-button-connect {
+        text-decoration: none;
+        text-align: center;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 2.5vw;
+        color: #fff;
+        padding: 0.6vw 1.2vw;
+        background-color: #41ba7a;
+        border: solid 2px #41ba7a;
+        border-radius: 15px;
+        width: 30%;
+    }
     .main-hook-cta-button-1 {
         text-decoration: none;
         text-align: center;
@@ -965,6 +980,35 @@ body {
     .section-2-sponsor {
         font-weight: 600;
         color: #258552;
+    }
+    .profile-containers {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    .individual-profile-container {
+        position: relative;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+        padding: 25px;
+        box-sizing: border-box;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 30px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+    }
+    .individual-profile-icon {
+        width: 80%;
+        border-radius: 999px;
     }
     .horizontal-fade-line {
         width: 100%;
@@ -1543,6 +1587,21 @@ body {
         justify-content: center;
         align-items: center;
     }
+    .cta-button-connect {
+        text-decoration: none;
+        text-align: center;
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 4.5vw;
+        color: #fff;
+        padding: 1.6vw 2.2vw;
+        background-color: #41ba7a;
+        border: solid 2px #41ba7a;
+        border-radius: 15px;
+        width: 50%;
+    }
     .main-hook-cta-button-1 {
         text-decoration: none;
         text-align: center;
@@ -1673,6 +1732,35 @@ body {
     .section-2-sponsor {
         font-weight: 600;
         color: #258552;
+    }
+    .profile-containers {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    .individual-profile-container {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+        padding: 25px;
+        box-sizing: border-box;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 30px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+    }
+    .individual-profile-icon {
+        width: 80%;
+        border-radius: 999px;
     }
     .horizontal-fade-line {
         width: 100%;
